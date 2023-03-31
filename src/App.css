@@ -1,0 +1,58 @@
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+button {
+  border: 1px dashed #fff7ff;
+  opacity: 45%;
+  padding: 0.5rem;
+  margin: 0.3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0.5rem;
+  background-image: url('./assets/image/universe.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.card {
+  background-color: #e8eaf6;
+  opacity: 80%;
+  padding: 4.5rem;
+  margin: 1.5rem;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.moon {
+  padding: 0.5rem;
+}
+
+.description {
+  text-transform: uppercase;
+}
+
+.temp {
+  width: 40px;
+  height: 40px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: nowrap;
+}
